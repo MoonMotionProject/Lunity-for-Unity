@@ -1,0 +1,40 @@
+/* CLASSES */
+
+
+/* logo */
+.logo {
+	/* size */
+	width: 16vw;
+	height: auto;
+
+	/* padding */
+	padding: 0;
+	padding-top: 1.45vw;
+	padding-left: 3vw;
+}
+@media only screen and (min-width: 768px) {		/* responsivity - at least: tablets in landscape mode */
+	.logo {
+		/* size */
+		width: 35.2vw;
+
+		/* padding */
+		padding-top: .95vw;
+		padding-left: 2.4vw;
+	}
+}
+@media only screen and (min-width: 1024px) {		/* responsivity - at least: desktop */
+	.logo {
+		/* size */
+		width: 25.2vw;
+
+		/* padding */
+		padding-top: .2vw;
+		padding-left: 1.8vw;
+	}
+}
+
+/* backgrounds */
+.background-dark-lighter {
+	background-color: var(--color-dark-lighter);
+	color: var(--color-Steam-text);
+}

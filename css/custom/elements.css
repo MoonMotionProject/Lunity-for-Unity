@@ -1,0 +1,28 @@
+/* ELEMENTS */
+/* (Moon Motion Project hardlink) */
+
+
+/* styling */
+body {
+	background-color: var(--color-cover-average);
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* links */
+a {
+	font-weight: bold;
+}
+
+/* headers */
+h2 {
+	text-align: center;
+}
+h1, h2, h3, h4 {
+	color: var(--color-Steam-text);
+	text-shadow: 0 1px 2px #000;
+}
+
+/* unordered lists */
+ul {
+	list-style-type: circle;
+}

@@ -1,0 +1,20 @@
+/* COLORS */
+
+:root {
+	/* buttons */
+	--color-Moon-Motion-button-glow: rgba(255, 100, 230, .6);		/* ('color-Lunity') */
+
+	/* general */
+    --color-main: var(--color-Lunity);
+	--color-light: var(--color-Vive);
+	--color-dark: var(--color-Steam);
+	--color-dark-lighter: var(--color-Steam-lightened);
+
+	/* icon */
+	--color-icon-light: var(--color-Lunity-icon-light);
+	--color-icon-dark: var(--color-Lunity-icon-dark);
+
+	/* links */
+    --color-link: var(--color-link-Lunity);
+    --color-link-hovered: var(--color-link-Lunity-hovered);
+}

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- metadata -->
+		<meta charset="utf-8">	<!-- Unicode characterset -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	<!-- Internet Explorer compatibility -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">	<!-- renders the page according to the device width -->
+		<meta name="description" content="Lunity: Automate Unity">		<!-- description (shown on searchengine result) -->
+		<meta name="author" content="Moon Motion Project">		<!-- author name -->
+		<meta name="theme-color" content="#d862f2">		<!-- Android Chrome bar color -->
+		<link rel="icon" href="images/Icon.png">	<!-- favicon -->
+		<title>Lunity for Unity</title>		<!-- title -->
+	
+	<!-- CSS -->
+		<!-- Reset -->						<link rel="stylesheet" href="css/reset.css">
+		<!-- Bootstrap -->					<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Open Sans [Google] font -->	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+		<!-- Font Awesome -->				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<!-- Animate (required by Wow) -->	<link rel="stylesheet" href="css/animate.css">
+		<!-- Hover -->						<link rel="stylesheet" href="css/hover-min.css">
+		<!-- Starfield -->					<link rel="stylesheet" href="css/starfield.css">
+		<!-- Felewin baseline -->			<link rel="stylesheet" href="css/Felewin-baseline.css">
+		<!-- custom - colors -->			<link rel="stylesheet" href="css/custom/colors.css">
+		<!-- custom - elements -->			<link rel="stylesheet" href="css/custom/elements.css">
+		<!-- custom - classes -->			<link rel="stylesheet" href="css/custom/classes.css">
+		<!-- custom - identifiers -->		<link rel="stylesheet" href="css/custom/identifiers.css">
+
+	<!-- preJS -->
+		<!-- none -->
+</head>
+
+<body>
+	<div>
+
+		<!-- Starfield -->
+		<div class="starfield display-only-below-smedium-desktop-dimensions"></div>
+		
+		<!-- cover -->
+		<div class="relative unselectable">
+			<!-- logo - icon only (for mobile) -->
+			<div class="absolute">
+				<a href="index.html">
+					<img src="images/Icon.png" class="logo unselectable wow fadeIn display-only-below-tablet-landscape-dimensions"/>
+				</a>
+			</div>
+			<!-- logo (for tablet+) -->
+			<div class="absolute">
+				<a href="index.html">
+					<img src="images/Logo.png" class="logo unselectable wow fadeIn display-only-by-tablet-landscape-dimensions"/>
+				</a>
+			</div>
+			<!-- buttons -->
+			<div class="absolute" id="Lunity-for-Unity-cover-buttons-grid-positioner">
+				<div class="relative">
+					<div class="grid unselectable wow fadeIn" id="Moon-Motion-buttons-grid">
+						<div class="cell cell-flex-centered">
+							<button class="Moon-Motion-button" id="Lunity-for-Unity-button-Asset-Store">Twitter</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- image - desktop -->
+			<img src="images/Lunity for Unity Cover - desktop.jpg" class="fullwidth undraggable display-only-at-desktop-dimensions"/>
+			<!-- image - tablet -->
+			<img src="images/Lunity for Unity Cover - tablet.jpg" class="fullwidth undraggable display-only-at-tablet-landscape-dimensions"/>
+			<!-- image - mobile -->
+			<img src="images/Lunity for Unity Cover - mobile.jpg" class="fullwidth undraggable display-only-below-tablet-landscape-dimensions"/>
+		</div>
+
+		<!-- footer -->
+		<div class="block-padded background-dark-lighter" id="footer">
+			<!-- text -->
+			<div class="align-center wow fadeIn" id="footer-text">
+				<p>
+					&copy; 2019<script>new Date().getFullYear()>2019&&document.write("-"+new Date().getFullYear());</script> <a href="https://github.com/MoonMotionProject" target="blank">Moon Motion Project</a>.<br class="display-only-below-tablet-landscape-dimensions"><span class="display-only-by-tablet-landscape-dimensions">&nbsp;</span><br class="display-only-below-tablet-landscape-dimensions">Website created by <a href="http://hunterbobeck.com/" target="blank" class="link-Felewin">Hunter Bobeck</a>.
+				</p>
+			</div>
+		</div>
+		
+	</div>
+	<!-- postJS -->
+		<!-- Jquery -->							<script src="js/jquery-3.3.1.js"></script>
+		<!-- Bootstrap -->						<script src="js/bootstrap.min.js"></script>		
+		<!-- Wow -->							<script src="js/wow.min.js"></script>		
+		<!-- activate Wow -->					<script>new WOW().init();</script>
+		<!-- Animate (not required by Wow) -->	<script src="js/animate.js"></script>
+		<!-- Starfield -->						<script src="js/starfield.js"></script>
+		<!-- Felewin baseline -->				<script src="js/Felewin-baseline.js"></script>
+		<!-- Felewin subpage titling -->		<script src="js/Felewin-subpage-titling.js"></script>
+		<!-- button clicks -->
+		<script>
+			$("#Lunity-for-Unity-button-Asset-Store").click(function()
+			{
+				window.location.href = "https://twitter.com/LunityForUnity";
+			});
+		</script>
+</body>
+</html>
